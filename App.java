@@ -8,6 +8,7 @@ public class App {
   {  
   //parsing a CSV file into Scanner class constructor  
   Scanner sc = new Scanner(new File("C:\\Users\\s448048\\Desktop\\Java g12\\g12\\test\\src\\V.csv"));  
+    // you have to edit the directory everytime
   sc.useDelimiter(",");   //sets the delimiter pattern  
   while (sc.hasNext())  //returns a boolean value  
   {  
